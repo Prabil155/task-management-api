@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 // mongo connect
 mongoose
   .connect(
-    "mongodb+srv://taskuser:task12345@cluster0.5kgee.mongodb.net/?appName=Cluster0"
+    "mongodb+srv://username-password@cluster0.5kgee.mongodb.net/?appName=Cluster0"
   )
   .then(() => {
     console.log("MongoDB connected");
